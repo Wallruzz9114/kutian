@@ -15,10 +15,8 @@ backend/Kutian.Infrastructure/obj
 backend/Kutian.Utilities/Migrations
 backend/Kutian.Domain/obj
 backend/Kutian.Domain/bin
-backend/Kutian.UnitTests/obj
-backend/Kutian.UnitTests/bin
-backend/Kutian.IntegrationTests/obj
-backend/Kutian.IntegrationTests/bin
+backend/Kutian.Tests/obj
+backend/Kutian.Tests/bin
 backend/Kutian.Utilities/obj
 backend/Kutian.Utilities/bin
 backend/.DS_Store
