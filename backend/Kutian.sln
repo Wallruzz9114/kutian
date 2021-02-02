@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
-MinimumVisualStudioVersion = 15.0.26124.0
+VisualStudioVersion = 15.0.16124.0
+MinimumVisualStudioVersion = 15.0.16124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kutian.Utilities", "Kutian.Utilities\Kutian.Utilities.csproj", "{3C984697-7E7B-4635-94EE-B4C357E8AA07}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kutian.Domain", "Kutian.Domain\Kutian.Domain.csproj", "{4022C699-BB80-4D27-8C4C-98BD0D5EE166}"
@@ -13,9 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kutian.Application", "Kutia
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kutian.API", "Kutian.API\Kutian.API.csproj", "{15A94612-E923-4098-B87C-C5245772FFB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kutian.IntegrationTests", "Kutian.IntegrationTests\Kutian.IntegrationTests.csproj", "{31A97F74-2A8B-4316-8EC4-20EE1171F955}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kutian.UnitTests", "Kutian.UnitTests\Kutian.UnitTests.csproj", "{5E344DFB-B38A-4133-9B79-70A07B0EFE7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kutian.Tests", "Kutian.Tests\Kutian.Tests.csproj", "{5E344DFB-B38A-4133-9B79-70A07B0EFE7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -90,18 +88,6 @@ Global
 		{15A94612-E923-4098-B87C-C5245772FFB6}.Release|x64.Build.0 = Release|Any CPU
 		{15A94612-E923-4098-B87C-C5245772FFB6}.Release|x86.ActiveCfg = Release|Any CPU
 		{15A94612-E923-4098-B87C-C5245772FFB6}.Release|x86.Build.0 = Release|Any CPU
-		{31A97F74-2A8B-4316-8EC4-20EE1171F955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{31A97F74-2A8B-4316-8EC4-20EE1171F955}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{31A97F74-2A8B-4316-8EC4-20EE1171F955}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{31A97F74-2A8B-4316-8EC4-20EE1171F955}.Debug|x64.Build.0 = Debug|Any CPU
-		{31A97F74-2A8B-4316-8EC4-20EE1171F955}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{31A97F74-2A8B-4316-8EC4-20EE1171F955}.Debug|x86.Build.0 = Debug|Any CPU
-		{31A97F74-2A8B-4316-8EC4-20EE1171F955}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{31A97F74-2A8B-4316-8EC4-20EE1171F955}.Release|Any CPU.Build.0 = Release|Any CPU
-		{31A97F74-2A8B-4316-8EC4-20EE1171F955}.Release|x64.ActiveCfg = Release|Any CPU
-		{31A97F74-2A8B-4316-8EC4-20EE1171F955}.Release|x64.Build.0 = Release|Any CPU
-		{31A97F74-2A8B-4316-8EC4-20EE1171F955}.Release|x86.ActiveCfg = Release|Any CPU
-		{31A97F74-2A8B-4316-8EC4-20EE1171F955}.Release|x86.Build.0 = Release|Any CPU
 		{5E344DFB-B38A-4133-9B79-70A07B0EFE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5E344DFB-B38A-4133-9B79-70A07B0EFE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E344DFB-B38A-4133-9B79-70A07B0EFE7B}.Debug|x64.ActiveCfg = Debug|Any CPU

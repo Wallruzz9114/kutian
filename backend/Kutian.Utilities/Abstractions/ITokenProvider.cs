@@ -5,6 +5,6 @@ namespace Kutian.Utilities.Abstractions
 {
     public interface ITokenProvider
     {
-        string Get(string uniqueName, List<Claim> customClaims = null);
+        string GetToken(string uniqueName, List<Claim> customClaims = null);
     }
 }

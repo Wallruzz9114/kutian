@@ -15,7 +15,7 @@ namespace Kutian.Utilities.Core.Utils
 
         public TokenProvider(IConfiguration configuration) => _configuration = configuration;
 
-        public string Get(string uniqueName, List<Claim> customClaims = null)
+        public string GetToken(string uniqueName, List<Claim> customClaims = null)
         {
             var now = DateTime.UtcNow;
             var nowDateTimeOffset = new DateTimeOffset(now);
@@ -32,19 +32,19 @@ namespace Kutian.Utilities.Core.Utils
                 claims.AddRange(customClaims);
 
             var jwtSecurityToken = new JwtSecurityToken(
-                issuer: _configuration[$"{ nameof(AuthenticationResponse) }:{ nameof(AuthenticationResponse.JWTIssuer) }"],
-                audience: _configuration[$"{ nameof(AuthenticationResponse) }:{ nameof(AuthenticationResponse.JWTAudience) }"],
+                issuer: _configuration[$"{ nameof(AuthenticationSettings) }:{ nameof(AuthenticationSettings.JWTIssuer) }"],
+                audience: _configuration[$"{ nameof(AuthenticationSettings) }:{ nameof(AuthenticationSettings.JWTAudience) }"],
                 claims: claims,
                 notBefore: now,
                 expires: now.AddMinutes(
                     Convert.ToInt16(
-                        _configuration[$"{ nameof(AuthenticationResponse) }:{ nameof(AuthenticationResponse.ExpiresInMinutes) }"]
+                        _configuration[$"{ nameof(AuthenticationSettings) }:{ nameof(AuthenticationSettings.ExpiresInMinutes) }"]
                     )
                 ),
                 signingCredentials: new SigningCredentials(
                     new SymmetricSecurityKey(
                         Encoding.ASCII.GetBytes(
-                            _configuration[$"{nameof(AuthenticationResponse)}:{nameof(AuthenticationResponse.JWTKey)}"])
+                            _configuration[$"{nameof(AuthenticationSettings)}:{nameof(AuthenticationSettings.JWTKey)}"])
                         ),
                         SecurityAlgorithms.HmacSha256
                     )

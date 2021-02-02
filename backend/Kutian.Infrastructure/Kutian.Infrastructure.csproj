@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Kutian.Application\Kutian.Application.csproj" />
-    <ProjectReference Include="..\Kutian.Domain\Kutian.Domain.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
