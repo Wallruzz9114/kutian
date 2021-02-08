@@ -8,6 +8,20 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "DotLiquid/2.0.366": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.3/DotLiquid.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/DotLiquid.dll": {}
+        },
+        "resource": {
+          "lib/netstandard1.3/it/DotLiquid.resources.dll": {
+            "locale": "it"
+          }
+        }
+      },
       "FluentValidation/9.5.0": {
         "type": "package",
         "compile": {
@@ -2254,6 +2268,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "DotLiquid": "2.0.366",
           "FluentValidation": "9.5.0",
           "MediatR": "9.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
@@ -2334,6 +2349,25 @@
         "coverlet-icon.png",
         "coverlet.collector.3.0.2.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "DotLiquid/2.0.366": {
+      "sha512": "mHYSacOw/4isFi5eDUV22C/My9p7GRhFueCqdyAgdiVBmetKViqcRshXeU8eFz1YOGB5gyfzvtZ3Svte2PH1AQ==",
+      "type": "package",
+      "path": "dotliquid/2.0.366",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "dotliquid.2.0.366.nupkg.sha512",
+        "dotliquid.nuspec",
+        "lib/net45/DotLiquid.dll",
+        "lib/net45/DotLiquid.xml",
+        "lib/net45/it/DotLiquid.resources.dll",
+        "lib/netstandard1.3/DotLiquid.dll",
+        "lib/netstandard1.3/DotLiquid.xml",
+        "lib/netstandard1.3/it/DotLiquid.resources.dll",
+        "readme.txt"
       ]
     },
     "FluentValidation/9.5.0": {

@@ -18,6 +18,19 @@
         }
       },
       "coverlet.collector/3.0.2": {},
+      "DotLiquid/2.0.366": {
+        "runtime": {
+          "lib/netstandard1.3/DotLiquid.dll": {
+            "assemblyVersion": "2.0.366.0",
+            "fileVersion": "2.0.366.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard1.3/it/DotLiquid.resources.dll": {
+            "locale": "it"
+          }
+        }
+      },
       "FluentValidation/9.5.0": {
         "runtime": {
           "lib/net5.0/FluentValidation.dll": {
@@ -1456,6 +1469,7 @@
       },
       "Kutian.Utilities/1.0.0": {
         "dependencies": {
+          "DotLiquid": "2.0.366",
           "FluentValidation": "9.5.0",
           "MediatR": "9.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
@@ -1495,6 +1509,13 @@
       "sha512": "sha512-iBvPAIDaI7j/iMx/DzCGCJ3rdiOmel9VINEfaTiBv/NKIGHOP4X3hqc6Q1wgMtArEshlhXexQknP17SK4vXb1w==",
       "path": "coverlet.collector/3.0.2",
       "hashPath": "coverlet.collector.3.0.2.nupkg.sha512"
+    },
+    "DotLiquid/2.0.366": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mHYSacOw/4isFi5eDUV22C/My9p7GRhFueCqdyAgdiVBmetKViqcRshXeU8eFz1YOGB5gyfzvtZ3Svte2PH1AQ==",
+      "path": "dotliquid/2.0.366",
+      "hashPath": "dotliquid.2.0.366.nupkg.sha512"
     },
     "FluentValidation/9.5.0": {
       "type": "package",

@@ -1,0 +1,18 @@
+<mat-toolbar class="mat-elevation-z6" color="primary">
+  <button mat-icon-button (click)="this.drawer.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <h1>Hire Me</h1>
+</mat-toolbar>
+<mat-sidenav-container>
+  <mat-sidenav #drawer mode="side" (click)="this.drawer.close()">
+    <button *ngIf="isAdmin$ | async" mat-button routerLink="/employeers">Employeers</button>
+    <button mat-button routerLink="/opportunities">Opportunities</button>
+    <button mat-button routerLink="/login">Logout</button>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="router-outlet-container">
+      <router-outlet #router></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

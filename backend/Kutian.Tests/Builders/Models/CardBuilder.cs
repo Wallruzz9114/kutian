@@ -6,7 +6,7 @@ namespace Kutian.Tests.Builders.Models
     {
         private readonly Card _card;
 
-        public CardBuilder() => _card = new Card();
+        public CardBuilder(string name) => _card = new Card(name);
 
         public Card Build() => _card;
     }

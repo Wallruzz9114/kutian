@@ -5,8 +5,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using FluentValidation;
 using Kutian.Domain.Entities;
+using Kutian.Domain.ViewModels;
 using Kutian.Utilities.Abstractions;
-using Kutian.Utilities.Core.Models;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 

@@ -35,17 +35,17 @@ namespace Kutian.Domain.Entities
 
         protected void When(PasswordChanged userPasswordChanged) => Password = userPasswordChanged.Password;
 
-        protected void When(RoleAdded roleAdded) => Roles.Add(new Role(roleAdded.Name));
+        protected void When(UserRoleAdded userRoleAdded) => Roles.Add(new Role(userRoleAdded.Name));
 
-        protected void When(RoleRemoved roleRemoved) => Roles.Remove(new Role(roleRemoved.Name));
+        protected void When(UserRoleRemoved userRoleRemoved) => Roles.Remove(new Role(userRoleRemoved.Name));
 
         protected override void EnsureValidState() { }
 
         public void ChangePassword(string password) => Apply(new PasswordChanged(password));
 
-        public void AddRole(string name) => Apply(new RoleAdded(name));
+        public void AddRole(string name) => Apply(new UserRoleAdded(name));
 
-        public void RemoveRole(string value) => Apply(new RoleRemoved(value));
+        public void RemoveRole(string value) => Apply(new UserRoleRemoved(value));
 
         public Guid UserId { get; private set; }
         public string Username { get; private set; }

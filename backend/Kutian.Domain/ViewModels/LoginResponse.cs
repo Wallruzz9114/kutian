@@ -1,6 +1,6 @@
 using System;
 
-namespace Kutian.Utilities.Core.Models
+namespace Kutian.Domain.ViewModels
 {
     public class LoginResponse
     {

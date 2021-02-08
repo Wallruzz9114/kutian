@@ -1,8 +1,8 @@
 namespace Kutian.Domain.Events
 {
-    public class RoleRemoved
+    public class UserRoleRemoved
     {
-        public RoleRemoved(string value) => Name = value;
+        public UserRoleRemoved(string value) => Name = value;
 
         public string Name { get; }
     }

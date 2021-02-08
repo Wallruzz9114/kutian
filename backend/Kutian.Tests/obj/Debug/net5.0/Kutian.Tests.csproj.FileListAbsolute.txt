@@ -136,3 +136,5 @@
 /Users/jpinto/code/dotnet/kutian/backend/Kutian.Tests/bin/Debug/net5.0/Kutian.API.pdb
 /Users/jpinto/code/dotnet/kutian/backend/Kutian.Tests/bin/Debug/net5.0/Kutian.Application.pdb
 /Users/jpinto/code/dotnet/kutian/backend/Kutian.Tests/bin/Debug/net5.0/Kutian.Infrastructure.pdb
+/Users/jpinto/code/dotnet/kutian/backend/Kutian.Tests/bin/Debug/net5.0/DotLiquid.dll
+/Users/jpinto/code/dotnet/kutian/backend/Kutian.Tests/bin/Debug/net5.0/it/DotLiquid.resources.dll

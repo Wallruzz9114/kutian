@@ -1,7 +1,7 @@
 using System.Net;
 using System.Threading.Tasks;
+using Kutian.Domain.ViewModels;
 using Kutian.Infrastructure.Features.Users.Queries;
-using Kutian.Utilities.Core.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Kutian.API.Controllers

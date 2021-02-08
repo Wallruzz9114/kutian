@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1auUFTk3K1yL6q4E0Czf6xKuwkVgtCNr1WELfo2qcIGVRR3Aj95djN7bhgQbVnu3LtrBZYP11AVIJflv5V9XNQ==",
+  "dgSpecHash": "5d0CW1fB2EDHQBnVspZ/llt0ab0pN0SI0wPVFZR4oldsv7GqVdBNcQ+cvybh8ZTBwIN+rGAoDRm5o4DmHXPzqw==",
   "success": true,
   "projectFilePath": "/Users/jpinto/code/dotnet/kutian/backend/Kutian.Tests/Kutian.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/jpinto/.nuget/packages/coverlet.collector/3.0.2/coverlet.collector.3.0.2.nupkg.sha512",
+    "/Users/jpinto/.nuget/packages/dotliquid/2.0.366/dotliquid.2.0.366.nupkg.sha512",
     "/Users/jpinto/.nuget/packages/fluentvalidation/9.5.0/fluentvalidation.9.5.0.nupkg.sha512",
     "/Users/jpinto/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
     "/Users/jpinto/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
