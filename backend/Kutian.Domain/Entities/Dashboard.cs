@@ -25,6 +25,8 @@ namespace Kutian.Domain.Entities
 
         public record DashboardCard
         {
+            public DashboardCard(Guid cardId, dynamic options) => (CardId, Options) = (cardId, options);
+
             public Guid CardId { get; set; }
             public dynamic Options { get; set; }
         }

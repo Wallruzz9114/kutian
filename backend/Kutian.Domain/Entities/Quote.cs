@@ -11,6 +11,10 @@ namespace Kutian.Domain.Entities
 
         public Guid QuoteId { get; private set; }
 
-        public record LineItem { }
+        public record LineItem
+        {
+            public decimal Amount { get; set; }
+            public string Decription { get; set; }
+        }
     }
 }

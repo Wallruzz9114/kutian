@@ -17,7 +17,6 @@ namespace Kutian.Domain.Entities
             Photos = new HashSet<Photo>();
         }
 
-
         protected override void EnsureValidState() { }
 
         public Guid PhotoGalleryId { get; private set; }

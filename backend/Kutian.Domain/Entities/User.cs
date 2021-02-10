@@ -19,7 +19,7 @@ namespace Kutian.Domain.Entities
 
             var transformedPassword = new PasswordHasher().HashPassword(salt, password);
 
-            Apply(new UserCreated(username, transformedPassword, salt));
+            Apply(new UserCreated(Guid.NewGuid(), username, transformedPassword, salt));
         }
 
         protected override void When(dynamic @event) => When(@event);
